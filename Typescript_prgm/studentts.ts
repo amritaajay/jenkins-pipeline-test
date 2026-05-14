@@ -26,8 +26,11 @@ class studentts{
 let s= new studentts("Sam",24);
 s.showDetail();
 let samMark=s.displayMark("Maths",90)
+
 let s1 =new studentts("Amrita",30)
 s1.showDetail();
 let amritaMark =s1.displayMark("English",30)
 console.log(samMark)
+
 console.log(amritaMark)
+console.log
