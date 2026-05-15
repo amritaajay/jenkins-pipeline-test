@@ -33,4 +33,3 @@ let amritaMark =s1.displayMark("English",30)
 console.log(samMark)
 
 console.log(amritaMark)
-console.log
