@@ -1,5 +1,9 @@
 // In TypeScript, a function that does not take any parameters and does not return a value is typically defined with the void return type.
 // function without parameter 
+// Empty Parentheses (): Indicates that the function accepts no input arguments.
+
+// : void: This is the return type annotation. It explicitly tells TypeScript that the function performs an action but does not send a value back 
+// via a return statement.
 
 function sayHello():void
 {

@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Install Dependencies') {
+            steps {
+                // Installs any packages listed in your package.json
+                sh 'npm install'
+            }
+        }
+        stage('Run App Execution') {
+            steps {
+                // Runs your nodeee.js file to verify the build works
+                sh 'node nodeee.js'
+            }
+        }
+    }
+}
